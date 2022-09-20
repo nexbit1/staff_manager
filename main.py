@@ -18,7 +18,7 @@ def add_member():
         FIRST_NAME = input('first name: ')
         LAST_NAME = input('last name: ')
         SALARY = float(input('salary: '))
-        JOINING_DATE = int(input('joining date (dd/mm/yyyy): '))
+        JOINING_DATE = int(input('joining date (ddmmyyyy): '))
         DEPARTMENT = input('department: ')
         add_department(DEPARTMENT)
         CONTACT_NUM = input('contact number: ')
